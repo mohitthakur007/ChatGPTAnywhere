@@ -34,7 +34,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
     // Send the text to the API endpoint
     const apiEndpoint = "https://api.openai.com/v1/completions";
-    const apiKey = "xxxxxxxxxxxxx"; // replace with your own API key
+    const apiKey = "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"; // replace with your own API key
     const headers = {
       "Content-Type": "application/json",
       "Authorization": `Bearer ${apiKey}`
